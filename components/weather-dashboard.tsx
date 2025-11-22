@@ -4,7 +4,6 @@ import { useMemo } from 'react'
 import CurrentWeather from './current-weather'
 import WeatherMetrics from './weather-metrics'
 import ForecastCard from './forecast-card'
-import { getWeatherDescription } from '@/lib/weather-utils'
 
 export default function WeatherDashboard({ data }: any) {
   const current = data?.current || {}
